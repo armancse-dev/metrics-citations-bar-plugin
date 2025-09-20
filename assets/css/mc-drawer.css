@@ -1,0 +1,121 @@
+.mc-bar {
+    background: #f8f9fa;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    position: relative;
+    z-index: 9998;
+}
+
+.mc-btn {
+    cursor: pointer;
+    font-weight: 600;
+    color: #0056b3;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.mc-btn i {
+    margin-right: 6px;
+}
+
+.mc-drawer {
+    position: fixed;
+    top: 87px;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.mc-drawer.active {
+    right: 0;
+}
+
+.mc-drawer .mc-close {
+    position: absolute;
+    top: 16px;
+    left: 87%;
+    background: none;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.mc-box h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mc-box ul {
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* =======================
+   Citations Styles
+======================= */
+.mc-citations {
+    margin-top: 20px;
+}
+
+.mc-citations h4 {
+    margin-bottom: 10px;
+    background: #F6F6F6;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd
+}
+
+.mc-citations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.mc-citations-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.mc-citations-table td {
+    padding: 8px 5px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.mc-citations-table .mc-style {
+    width: 100px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mc-citations-table .mc-text {
+    color: #444;
+    font-style: italic;
+}
+
+/* =======================
+   Export Links
+======================= */
+.mc-export-links {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.mc-export-links a {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.mc-export-links a:hover {
+    text-decoration: underline;
+}
