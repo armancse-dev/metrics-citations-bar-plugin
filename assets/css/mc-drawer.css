@@ -9,11 +9,14 @@
 
 .mc-btn {
     cursor: pointer;
-    font-weight: 600;
-    color: #0056b3;
+    font-weight: 500;
+    color: #000000;
     display: inline-flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
+    border: none;
+    background: none;
+border: none;
 }
 
 .mc-btn i {
@@ -22,7 +25,7 @@
 
 .mc-drawer {
     position: fixed;
-    top: 87px;
+    top: 179px;
     right: -400px;
     width: 400px;
     height: 100%;
